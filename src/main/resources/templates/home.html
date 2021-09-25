@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Mystery Eats</title>
+    <div th:replace="partials/headLinks.html" :: head></div>
 </head>
-<body>
-    <h1>Welcome to Mystery Eats!!</h1>
+<body class="container">
+    <h1 class="text-primary">Welcome to Mystery Eats!!</h1>
+    <div th:replace="partials/scripts.html :: scripts"></div>
 </body>
 </html>
