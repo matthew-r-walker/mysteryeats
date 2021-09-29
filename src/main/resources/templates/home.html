@@ -5,8 +5,11 @@
     <title>Mystery Eats</title>
     <div th:replace="partials/headLinks.html" :: head></div>
 </head>
-<body class="container">
-    <h1 class="text-primary">Welcome to Mystery Eats!!</h1>
-    <div th:replace="partials/scripts.html :: scripts"></div>
+<body>
+<nav th:replace="partials/navbar.html :: navbar"/>
+    <div class="container">
+        <h1 class="text-primary">Welcome to Mystery Eats!!</h1>
+        <div th:replace="partials/scripts.html :: scripts"></div>
+    </div>
 </body>
 </html>
